@@ -52,34 +52,61 @@ Future plans
 
 There is not - that I know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help T's parent, unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
 
-    - https://github.com/tendenci/tendenci/issues/660 . If we know what is desired someone might be willing to chip in and either write the docs (or whatever) or at least start the
+    - https://github.com/tendenci/tendenci/issues/660 . If we know what is desired someone might be willing to chip in and either write the docs (or whatever) or at least start them
 
 
+Contributions need to be matched
+================================
 
-Participation needs to be rewarded
-==========================
+The time of external contributors is scarce and unpredictable. Because of that, I believe it is important to ensure they are not left waiting
 
-Sometimes the reward just needs to be a response.
+Code and questions
+------------------
 
-    - merges need /something/ within 48 hours, ideally 24 hours (comment, merge. either way)
-        - even attempts like this which aren't a merge but are a POC should have the same treatment https://github.com/tendenci/tendenci/issues/684
-    - bugs should have /something/ within 72 hours, ideally 48 hours
-    - An example of bad engagement: I responded to a survey via email, never had an answer to the issues I raised and many of my comments (related to community) don't appear to have been actioned.
-    - having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570 ,
-    - people try and 'trigger' engagement, get nothing https://github.com/tendenci/tendenci/issues/613 , https://github.com/tendenci/tendenci/issues/685#issuecomment-394572592 me trying to engage
-
-->  i filled in a survey 'some time ago', i never received a reply then and when I asked for my survey responses 2018-06-09, no reply.
+	- Submitted PRs/ need /something/ within 48 hours, ideally 24 hours (something could be feedback or merging)
+			- Even attempts like this which aren't a merge but are a POC should have the same treatment https://github.com/tendenci/tendenci/issues/684
+			- Incomplete/WIP PRs are no exception, if anything they are more important because someone WANTS to work on it
+	- Bugs need /something/ within 72 hours, ideally 24 hours
 
 Just because an issue is hard doesn't mean it should be ignored. A little bit of feedback might help unblock a problem
 
 
+Participation needs to be engaged with
+======================================
+
+Incomplete engagement
+---------------------
+
+Several times recently I've seen comments which were engaged with but which were left hanging shortly after.
+
+	- having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570 ,
+	- people try and 'trigger' engagement, get nothing https://github.com/tendenci/tendenci/issues/613 , https://github.com/tendenci/tendenci/issues/685#issuecomment-394572592 me trying to engage
+
+
+Respond to feedback
+-------------------
+
+Many moons ago I responded to a survey - probably received via emailed newsletter. I never received an answer to the issues I raised and many of my comments (related to community) don't appear to have been actioned - in many cases they are the same as those I'm providing now.
+
+While working on this letter I asked for my survey responses (on 2018-06-09), a week later I have yet to receive a reply of any description.
+
+
+
 Contributors want recognition
-- https://github.com/tendenci/tendenci/blob/master/docs/credits.md adding people here (or an equivalent *without them asking* is important. this doesn't has not changed for 4 years.
-- some public thanks in the newsletter of people/orgs who have made "substantial" contributions in a month?
+=============================
+
+Many contributors don't receive anything for their efforts (except perhaps their own lives being a little easier), so recognition of their contribution is all they will see.
+
+I think it is important that the credits document (or an equivalent) is updated to include those who have made a "substantial" contribution, *without them needing to ask*
+
+- https://github.com/tendenci/tendenci/blob/master/docs/credits.md this  has not changed for 4 years.
+
+Thinking on my feet, I wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
 
 
-    - this might help https://github.com/tendenci/tendenci/issues/692, app / contributions bazaar
-        - this tangentially relates to 'community contributed support tooling', for example ansible or puppet scripts to manage tendenci. Where can those be noted/publicised to the community? forum kind of
+- this might help https://github.com/tendenci/tendenci/issues/692, app / contributions bazaar
+		- this tangentially relates to 'community contributed support tooling', for example ansible or puppet scripts to manage tendenci. Where can those be noted/publicised to the community? forum kind of
+
 
 
 
@@ -87,6 +114,5 @@ Contributors want recognition
 - https://www.tendenci.com/developers/ makes a call out for contributors (of various kinds), but then issues like https://github.com/tendenci/tendenci/issues/692 make contributions harder (TBC: does it?)
 
 TODO: open bug on tendenci: ship all available docs (known to be relevant to a release) in project installs? build a -doc package which includes it? the current shipped docs are pretty sparse.
-find some other way to contact tendenci, i don't remember the last time an email of mine was responded to.
 
 
