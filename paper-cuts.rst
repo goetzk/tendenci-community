@@ -1,6 +1,6 @@
-=======================
+=============================
 tendenci community paper cuts
-=======================
+=============================
 
 Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment I doubt anyone will disagree with).
 Despite that, in the last two years I haven't seen any change in how Tendenci's parent company ('T's parent' from here on) tries to encourage or facilitate greater contribution.
@@ -12,14 +12,14 @@ I also want to state up front that I appreciate I am asking more of the small nu
 
 
 Participation needs to be easy
-======================
+==============================
 
 Having a public bug tracker and accepting merge requests is important and I can say from personal experience that it is an excellent thing to be able to make submissions. Thanks!
 
 I would like to suggest some other ways in which participation can be made easier
 
 Forum notifications
---------------------
+-------------------
 
 I believe in order to achieve its full potential the forum needs to provide notifications. Why? because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
 
@@ -33,7 +33,7 @@ This is, coincidentally, roughly the same levels as GitHub provides.
 
 
 T's parent only documentation
--------------------------------
+-----------------------------
 
 Lots of documentation is on the Tendenci (organisation) website and is not editable to casual contributors (presumably only available to T's parent staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update. I will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if i was able to edit the documentation directly I would have been able to add my new information there.
 
