@@ -31,6 +31,16 @@ I would like to see the ability to subscribe to:
 
 This is, coincidentally, roughly the same levels as GitHub provides.
 
+Forum topics
+------------
+
+If T's parent decides that the forum is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
+
+1. a mailing list
+2. buy-in from T's parent with the matrix channel or setting up a 'community' on matrix
+
+with the latter as my preference.
+
 
 Developers developers developers
 --------------------------------
