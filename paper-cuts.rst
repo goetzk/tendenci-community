@@ -1,3 +1,8 @@
+
+
+TODO: open bug on tendenci: ship all available docs (known to be relevant to a release) in project installs? build a -doc package which includes it? the current shipped docs are pretty sparse.
+
+
 =============================
 tendenci community paper cuts
 =============================
@@ -18,6 +23,8 @@ Having a public bug tracker and accepting merge requests is important and I can 
 
 I would like to suggest some other ways in which participation can be made easier
 
+https://www.tendenci.com/developers/ makes a call out for contributors (of various kinds), but then issues like https://github.com/tendenci/tendenci/issues/692 make contributions harder (TBC: does it?)
+
 Forum notifications
 -------------------
 
@@ -30,6 +37,17 @@ I would like to see the ability to subscribe to:
 - the entire forum
 
 This is, coincidentally, roughly the same levels as GitHub provides.
+
+
+Ecosystem
+---------
+
+mention how  other people have wider ecosystems and it may be the case tendneci could benefit
+- puppet forge, ansible galaxy,
+
+- this might help https://github.com/tendenci/tendenci/issues/692, app / contributions bazaar
+		- this tangentially relates to 'community contributed support tooling', for example ansible or puppet scripts to manage tendenci. Where can those be noted/publicised to the community? forum kind of
+
 
 
 T's parent only documentation
@@ -97,22 +115,9 @@ Contributors want recognition
 
 Many contributors don't receive anything for their efforts (except perhaps their own lives being a little easier), so recognition of their contribution is all they will see.
 
-I think it is important that the credits document (or an equivalent) is updated to include those who have made a "substantial" contribution, *without them needing to ask*
+I think it is important that the credits document (or an equivalent) is updated to include those who have made a "substantial" contribution, *without them needing to ask*. The current document has not changed for 4 years.
 
-- https://github.com/tendenci/tendenci/blob/master/docs/credits.md this  has not changed for 4 years.
+https://github.com/tendenci/tendenci/blob/master/docs/credits.md
 
 Thinking on my feet, I wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
-
-
-- this might help https://github.com/tendenci/tendenci/issues/692, app / contributions bazaar
-		- this tangentially relates to 'community contributed support tooling', for example ansible or puppet scripts to manage tendenci. Where can those be noted/publicised to the community? forum kind of
-
-
-
-
-- Outstanding notes:
-- https://www.tendenci.com/developers/ makes a call out for contributors (of various kinds), but then issues like https://github.com/tendenci/tendenci/issues/692 make contributions harder (TBC: does it?)
-
-TODO: open bug on tendenci: ship all available docs (known to be relevant to a release) in project installs? build a -doc package which includes it? the current shipped docs are pretty sparse.
-
 
