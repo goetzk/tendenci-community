@@ -1,8 +1,3 @@
-
-
-TODO: open bug on tendenci: ship all available docs (known to be relevant to a release) in project installs? build a -doc package which includes it? the current shipped docs are pretty sparse.
-
-
 =============================
 tendenci community paper cuts
 =============================
@@ -21,14 +16,12 @@ Participation needs to be easy
 
 Having a public bug tracker and accepting merge requests is important and I can say from personal experience that it is an excellent thing to be able to make submissions. Thanks!
 
-I would like to suggest some other ways in which participation can be made easier
-
-https://www.tendenci.com/developers/ makes a call out for contributors (of various kinds), but then issues like https://github.com/tendenci/tendenci/issues/692 make contributions harder (TBC: does it?)
+I would like to suggest some other ways in which participation can be made easier.
 
 Forum notifications
 -------------------
 
-I believe in order to achieve its full potential the forum needs to provide notifications. Why? because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
+I believe in order to achieve its full potential the forum needs to provide notifications. Why? Because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
 
 I would like to see the ability to subscribe to:
 - posts I made
@@ -39,15 +32,18 @@ I would like to see the ability to subscribe to:
 This is, coincidentally, roughly the same levels as GitHub provides.
 
 
-Ecosystem
----------
+Developers developers developers
+--------------------------------
 
-mention how  other people have wider ecosystems and it may be the case tendneci could benefit
-- puppet forge, ansible galaxy,
+https://www.tendenci.com/developers/ makes a call out for contributors (of various kinds), but doesn't provide much to help them get started in non coding contributions.
 
-- this might help https://github.com/tendenci/tendenci/issues/692, app / contributions bazaar
-		- this tangentially relates to 'community contributed support tooling', for example ansible or puppet scripts to manage tendenci. Where can those be noted/publicised to the community? forum kind of
+For example:
+- Design Tendenci Themes does not link to any anywhere themes can be shared
+- Build Tendenci Plugins does not link to ANY documentation at all
 
+There are also other kinds of contribution that are not tracked or proffered in any way: 'community contributed tooling', for example Ansible or puppet scripts to manage Tendenci. Where can those be noted/publicised to the community at large?
+
+A bazaar like that mentioned in https://github.com/tendenci/tendenci/issues/692 might be a target for such contributions, unless there is an intent that all offered plugins and themes will be merged in to a Tendenci repository somewhere.
 
 
 T's parent only documentation
@@ -62,7 +58,7 @@ There are other easy fixes on that page too:
 * "Getting Started hosting Tendenci on Rackspace Open Stack Cloud Hosting" links to a page that says it is outdated and look at read the docs
 
 
-I believe the split documentation schism is one reason that searching for Tendenci help can be very hit and miss, its docs often don't seem to come up in my searches (perhaps i'm weird?).
+I believe the split documentation schism is one reason that searching for Tendenci help can be very hit and miss, its docs often don't seem to come up in my searches (perhaps I'm weird?).
 
 
 Future plans
@@ -70,7 +66,7 @@ Future plans
 
 There is not - that I know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help T's parent, unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
 
-    - https://github.com/tendenci/tendenci/issues/660 . If we know what is desired someone might be willing to chip in and either write the docs (or whatever) or at least start them
+Related to that is detail in tickets. A recent example of a ticket which isn't very detailed is https://github.com/tendenci/tendenci/issues/660 . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
 
 
 Contributions need to be matched
@@ -97,15 +93,11 @@ Incomplete engagement
 
 Several times recently I've seen comments which were engaged with but which were left hanging shortly after.
 
-	- having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570 ,
-	- people try and 'trigger' engagement, get nothing https://github.com/tendenci/tendenci/issues/613 , https://github.com/tendenci/tendenci/issues/685#issuecomment-394572592 me trying to engage
+- having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570
+- people try and 'trigger' engagement, get nothing in response, for example https://github.com/tendenci/tendenci/issues/613#issuecomment-392497823 where Adam created a Matrix chat or https://github.com/tendenci/tendenci/issues/685#issuecomment-395043657 where I replied to a very enthusiastic response but saw nothing thereafter.
 
-
-Respond to feedback
--------------------
 
 Many moons ago I responded to a survey - probably received via emailed newsletter. I never received an answer to the issues I raised and many of my comments (related to community) don't appear to have been actioned - in many cases they are the same as those I'm providing now.
-
 While working on this letter I asked for my survey responses (on 2018-06-09), a week later I have yet to receive a reply of any description.
 
 
