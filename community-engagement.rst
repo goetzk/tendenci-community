@@ -2,13 +2,13 @@
 tendenci community
 ==================
 
-Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment @goetzk doubt anyone will disagree with).
+Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution - a sentiment we probably all agree with.
 
-Despite that, in the last two years @goetzk haven't seen any change in how Tendenci's parent company ('Tendenci (corp)' from here on) tries to encourage or facilitate greater contribution.
+Despite that Tendenci's parent company ('Tendenci (corp)' from here on) has struggled to build a growing community of regular contributors.
 
-I have put together the following document to try and expose areas @goetzk believe can (and should) be addressed and try to offer suggested fixes to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
+To try and expose areas @goetzk believes should be addressed, this document has been put together to try and outline issues experienced by the community. At the same time we try to offer solutions to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
 
-I also want to state up front that @goetzk appreciate @goetzk am asking more of the small number of already busy people behind the project however @goetzk do believe they are important and that many of them should be relatively easy to cater to.
+While some of these steps will result in short term increases in effort (for example set up) or medium term effort (perhaps maintenance) it is felt the effort should pay for itself in easing contribution for potential developers and productivity for instance administrators.
 
 
 Participation needs to be easy
