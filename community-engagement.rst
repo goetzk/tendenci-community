@@ -2,19 +2,19 @@
 tendenci community
 ==================
 
-Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment I doubt anyone will disagree with).
-Despite that, in the last two years I haven't seen any change in how Tendenci's parent company ('T's parent' from here on) tries to encourage or facilitate greater contribution.
+Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment @goetzk doubt anyone will disagree with).
 
-I have put together the following document to try and expose areas I believe can (and should) be addressed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
+Despite that, in the last two years @goetzk haven't seen any change in how Tendenci's parent company ('T's parent' from here on) tries to encourage or facilitate greater contribution.
 
+I have put together the following document to try and expose areas @goetzk believe can (and should) be addressed and try to offer suggested fixes to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
 
-I also want to state up front that I appreciate I am asking more of the small number of already busy people behind the project and that none of the stuff below is thoughtlessly easy to implement. However I do believe they are important and that many of them should be relatively easy to cater to.
+I also want to state up front that @goetzk appreciate @goetzk am asking more of the small number of already busy people behind the project however @goetzk do believe they are important and that many of them should be relatively easy to cater to.
 
 
 Participation needs to be easy
 ==============================
 
-Having a public bug tracker and accepting merge requests is important and I can say from personal experience that it is an excellent thing to be able to make submissions. Thanks!
+Having a public bug tracker and accepting merge requests is important and @goetzk can say from personal experience that it is an excellent thing to be able to make submissions. Thanks!
 
 I would like to suggest some other ways in which participation can be made easier.
 
@@ -59,9 +59,9 @@ A bazaar like that mentioned in https://github.com/tendenci/tendenci/issues/692 
 T's parent only documentation
 -----------------------------
 
-Lots of documentation is on the Tendenci (organisation) website and is not editable to casual contributors (presumably only available to T's parent staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update. I will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if i was able to edit the documentation directly I would have been able to add my new information there.
+Lots of documentation is on the Tendenci (organisation) website and is not editable to casual contributors (presumably only available to T's parent staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update. I will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if i was able to edit the documentation directly @goetzk would have been able to add my new information there.
 
-As an example of the problematic nature of the T's parent only pages I reported this issue in 2015 which is still unfixed:
+As an example of the problematic nature of the T's parent only pages @goetzk reported this issue in 2015 which is still unfixed:
 * Your developers page (https://www.tendenci.com/developers/) has a number of broken links. [...]  Github Newsfeed (https://github.com/organizations/tendenci) goes to the Github home page
 There are other easy fixes on that page too:
 * "Find out about Tendenci Open Source Hosting Requirements" should point directly to Read the docs, not to a page on tendenci.org which links to rtd.
@@ -74,7 +74,7 @@ I believe the split documentation schism is one reason that searching for Tenden
 Future plans
 -------------
 
-There is not - that I know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help T's parent, unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
+There is not - that @goetzk know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help T's parent, unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
 
 Related to that is detail in tickets. A recent example of a ticket which isn't very detailed is https://github.com/tendenci/tendenci/issues/660 . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
 
@@ -82,7 +82,7 @@ Related to that is detail in tickets. A recent example of a ticket which isn't v
 Contributions need to be matched
 ================================
 
-The time of external contributors is scarce and unpredictable. Because of that, I believe it is important to ensure they are not left waiting
+The time of external contributors is scarce and unpredictable. Because of that, @goetzk believe it is important to ensure they are not left waiting
 
 Code and questions
 ------------------
@@ -104,11 +104,11 @@ Incomplete engagement
 Several times recently I've seen comments which were engaged with but which were left hanging shortly after.
 
 - having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570
-- people try and 'trigger' engagement, get nothing in response, for example https://github.com/tendenci/tendenci/issues/613#issuecomment-392497823 where Adam created a Matrix chat or https://github.com/tendenci/tendenci/issues/685#issuecomment-395043657 where I replied to a very enthusiastic response but saw nothing thereafter.
+- people try and 'trigger' engagement, get nothing in response, for example https://github.com/tendenci/tendenci/issues/613#issuecomment-392497823 where Adam created a Matrix chat or https://github.com/tendenci/tendenci/issues/685#issuecomment-395043657 where @goetzk replied to a very enthusiastic response but saw nothing thereafter.
 
 
-Many moons ago I responded to a survey - probably received via emailed newsletter. I never received an answer to the issues I raised and many of my comments (related to community) don't appear to have been actioned - in many cases they are the same as those I'm providing now.
-While working on this letter I asked for my survey responses (on 2018-06-09), a week later I have yet to receive a reply of any description.
+Many moons ago @goetzk responded to a survey - probably received via emailed newsletter. @goetzk never received an answer to the issues @goetzk raised and many of my comments (related to community) don't appear to have been actioned - in many cases they are the same as those I'm providing now.
+While working on this letter @goetzk asked for my survey responses (on 2018-06-09), a week later @goetzk have yet to receive a reply of any description.
 
 
 
@@ -121,5 +121,5 @@ I think it is important that the credits document (or an equivalent) is updated 
 
 https://github.com/tendenci/tendenci/blob/master/docs/credits.md
 
-Thinking on my feet, I wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
+Thinking on my feet, @goetzk wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
 
