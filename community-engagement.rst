@@ -1,6 +1,6 @@
-=============================
-tendenci community paper cuts
-=============================
+==================
+tendenci community
+==================
 
 Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment I doubt anyone will disagree with).
 Despite that, in the last two years I haven't seen any change in how Tendenci's parent company ('T's parent' from here on) tries to encourage or facilitate greater contribution.
