@@ -4,7 +4,7 @@ tendenci community
 
 Every now and then the topic of community comes up in discussions around Tendenci and there is a general agreement it would be good to see more external contribution (a sentiment @goetzk doubt anyone will disagree with).
 
-Despite that, in the last two years @goetzk haven't seen any change in how Tendenci's parent company ('T's parent' from here on) tries to encourage or facilitate greater contribution.
+Despite that, in the last two years @goetzk haven't seen any change in how Tendenci's parent company ('Tendenci (corp)' from here on) tries to encourage or facilitate greater contribution.
 
 I have put together the following document to try and expose areas @goetzk believe can (and should) be addressed and try to offer suggested fixes to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
 
@@ -34,10 +34,10 @@ This is, coincidentally, roughly the same levels as GitHub provides.
 Forum topics
 ------------
 
-If T's parent decides that the forum is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
+If Tendenci (corp) decides that the forum is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
 
 1. a mailing list
-2. buy-in from T's parent with the matrix channel or setting up a 'community' on matrix
+2. buy-in from Tendenci (corp) with the matrix channel or setting up a 'community' on matrix
 
 with the latter as my preference.
 
@@ -56,12 +56,12 @@ There are also other kinds of contribution that are not tracked or proffered in 
 A bazaar like that mentioned in https://github.com/tendenci/tendenci/issues/692 might be a target for such contributions, unless there is an intent that all offered plugins and themes will be merged in to a Tendenci repository somewhere.
 
 
-T's parent only documentation
+Tendenci (corp) only documentation
 -----------------------------
 
-Lots of documentation is on the Tendenci (organisation) website and is not editable to casual contributors (presumably only available to T's parent staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update. I will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if i was able to edit the documentation directly @goetzk would have been able to add my new information there.
+Lots of documentation is on the Tendenci (organisation) website and is not editable to casual contributors (presumably only available to Tendenci (corp) staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update. I will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if i was able to edit the documentation directly @goetzk would have been able to add my new information there.
 
-As an example of the problematic nature of the T's parent only pages @goetzk reported this issue in 2015 which is still unfixed:
+As an example of the problematic nature of the Tendenci (corp) only pages @goetzk reported this issue in 2015 which is still unfixed:
 * Your developers page (https://www.tendenci.com/developers/) has a number of broken links. [...]  Github Newsfeed (https://github.com/organizations/tendenci) goes to the Github home page
 There are other easy fixes on that page too:
 * "Find out about Tendenci Open Source Hosting Requirements" should point directly to Read the docs, not to a page on tendenci.org which links to rtd.
@@ -74,7 +74,7 @@ I believe the split documentation schism is one reason that searching for Tenden
 Future plans
 -------------
 
-There is not - that @goetzk know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help T's parent, unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
+There is not - that @goetzk know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help Tendenci (corp), unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
 
 Related to that is detail in tickets. A recent example of a ticket which isn't very detailed is https://github.com/tendenci/tendenci/issues/660 . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
 
