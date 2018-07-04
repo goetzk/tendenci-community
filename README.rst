@@ -13,7 +13,100 @@ Despite that Tendenci's parent company (`Tendenci (corp)`_ from here on) has str
 
 To try and expose areas I (@goetzk) - and others - believes should be addressed, this document has been put together to try and outline issues experienced by the community. At the same time we try to offer solutions to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
 
-While some of these steps will result in short term increases in effort (for example set up) or medium term effort (perhaps maintenance) it is felt the effort should pay for itself in easing contribution for potential developers and productivity for instance administrators.
+While some of these steps will result in short term increases in effort (for example set up) or medium term effort (maintenance) it is felt the effort should pay for itself in easing contribution for potential developers and productivity for instance administrators.
+
+
+
+Documentation is fragmented
+===========================
+
+The concern
+-----------
+
+Tendenci has a lot of documentation but it is spread far and wide. Officially, documentation can be found at docs.tendenci.com and tendenci.readthedocs.io. Unofficially documentation also ends up in discussions in GitHub issues, the forum (now defunct) and other locations.
+
+Problem outline
+---------------
+
+I believe the split between the two official sources of documentation is one reason that searching for Tendenci help can be very hit and miss (its docs often don't come up in searches when @goetzk is looking) and having documentation split up like this has a couple of drawbacks which affect use, but also hinder contribution. Importantly:
+
+* Effort required to find the documentation (which location is it in?)
+* Contribution consistency (how is it edited)
+* Different editing permissions and review process for each documentation source (who can edit?).
+
+Proposed solution
+-----------------
+
+Enabling greater collaboration in docs.tendenci.com would allow consolidating all user facing documentation there. readthedocs could then be used exclusively for development related topics.
+
+
+Tendenci (corp) only documentation
+==================================
+
+The concern
+------------
+
+Lots of documentation is on the Tendenci (corp) website and is not editable to casual contributors (presumably only available to Tendenci (corp) staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update.
+
+I (@goetzk) will cite my recent PRs supplying documentation for Stripe integration ("`Mention recurring payments`_" and "`Expand recurring payments documentation`_") as an example of working around the lack of editing ability - if I was able to edit the documentation those PRs would have been able to add new information directly.
+
+.. _Mention recurring payments: https://github.com/tendenci/tendenci/pull/645
+.. _Expand recurring payments documentation: https://github.com/tendenci/tendenci/pull/652
+
+
+As an example of the problematic nature of the Tendenci (corp) only pages I reported this issue in 2015 which is still unfixed:
+ * The `developers page`_ has a number of broken links. [...]  Github Newsfeed (https://github.com/organizations/tendenci) goes to the Github home page
+There are other easy fixes on that page too:
+ * "Find out about Tendenci Open Source Hosting Requirements" should point directly to Read the docs, not to a page on tendenci.org which links to RTD.
+ * "Getting Started hosting Tendenci on Rackspace Open Stack Cloud Hosting" links to a page that says it is outdated and look at read the docs.
+
+There is also `issue 845`_ reported in August 2020 requesting access to fix documentation which didn't see a response until it was pinged several years later.
+
+I believe the split documentation schism is one reason that searching for Tendenci help can be very hit and miss, its docs often don't seem to come up in my searches (perhaps I'm weird?).
+
+.. _developers page: https://www.tendenci.com/developers/
+.. _issue 845: https://github.com/tendenci/tendenci/issues/845
+
+Proposed solution
+-----------------
+
+The suggestion for this issue is to permit community members editing ability over Tendenci's documentation site. The specifics are (of course) the part which decides the complexity but I can see two main options:
+
+* People contact an address to request access to edit the docs site and are granted it on a case by case basis
+* People log in to the site using their GitHub logins via oath and those who are already contributors are able to edit documentation right away.
+
+These solutions (and others like them) will require some administrative overhead but facilitate several advantages including enhanced contributions to the documentation and a possible documentation split between user facing (docs.tendenci.com) and developer (tendenci.readthedocs.org)
+
+
+Future plans are opaque
+=======================
+
+The concern
+-----------
+
+There is not - that we know of - a published roadmap for Tendenci providing future plans at _any_ level.
+
+.. Note::
+
+  Since writing this section projects were added to GitHub for both Tendenci 7 and Tendenci 11.
+
+
+Problem outline
+---------------
+
+Sometimes community members needs line up with a projects medium or long term goals. When this information is accessible members are able to proactively contribute features (or fix thing) which will help Tendenci, unless they decide the need is so real the community members will do the work but risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
+
+Related to that is detail in tickets. A recent example (at time of writing) of a ticket which isn't very detailed is `issue 660`_ . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
+
+.. _issue 660: https://github.com/tendenci/tendenci/issues/660
+
+
+Proposed solution
+-----------------
+
+It would be great to see more information in this space, for example a page in the documentation with a high level roadmap linking to GitHub projects for each release (note that this does not mean linking to individual issues).
+
+If that is considered too high maintenance, having projects for projected major releases (as is now done!) and having target releases issues are tagged with would help provide visibility for potential contributors.
 
 
 Participation needs to be easy
@@ -38,39 +131,6 @@ There are also other kinds of contribution that are not tracked or proffered in 
 A bazaar like that mentioned in `issue 692`_ might be a target for such contributions, unless there is an intent that all offered plugins and themes will be merged in to a Tendenci repository somewhere.
 
 .. _issue 692: https://github.com/tendenci/tendenci/issues/692
-
-Tendenci (corp) only documentation
------------------------------
-
-Lots of documentation is on the Tendenci (corp) website and is not editable to casual contributors (presumably only available to Tendenci (corp) staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update.
-
-I (@goetzk) will cite my recent PRs supplying documentation for Stripe integration ("`Mention recurring payments`_" and "`Expand recurring payments documentation`_") as an example of working around the lack of editing ability - if I was able to edit the documentation those PRs would have been able to add new information directly.
-
-.. _Mention recurring payments: https://github.com/tendenci/tendenci/pull/645
-.. _Expand recurring payments documentation: https://github.com/tendenci/tendenci/pull/652
-
-
-As an example of the problematic nature of the Tendenci (corp) only pages I reported this issue in 2015 which is still unfixed:
- * The `developers page`_ has a number of broken links. [...]  Github Newsfeed (https://github.com/organizations/tendenci) goes to the Github home page
-There are other easy fixes on that page too:
- * "Find out about Tendenci Open Source Hosting Requirements" should point directly to Read the docs, not to a page on tendenci.org which links to RTD.
- * "Getting Started hosting Tendenci on Rackspace Open Stack Cloud Hosting" links to a page that says it is outdated and look at read the docs.
-
-There is also `issue 845`_ reported in August 2020 requesting access to fix documentation which didn't see a response until it was pinged several years later.
-
-I believe the split documentation schism is one reason that searching for Tendenci help can be very hit and miss, its docs often don't seem to come up in my searches (perhaps I'm weird?).
-
-.. _developers page: https://www.tendenci.com/developers/
-.. _issue 845: https://github.com/tendenci/tendenci/issues/845
-
-Future plans
--------------
-
-There is not - that @goetzk know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help Tendenci (corp), unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
-
-Related to that is detail in tickets. A recent example (at time of writing) of a ticket which isn't very detailed is `issue 660`_ . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
-
-.. _issue 660: https://github.com/tendenci/tendenci/issues/660
 
 Contributions need to be matched
 ================================
