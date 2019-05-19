@@ -117,9 +117,5 @@ Contributors want recognition
 
 Many contributors don't receive anything for their efforts (except perhaps their own lives being a little easier), so recognition of their contribution is all they will see.
 
-I think it is important that the credits document (or an equivalent) is updated to include those who have made a "substantial" contribution, *without them needing to ask*. The current document has not changed for 4 years.
-
-https://github.com/tendenci/tendenci/blob/master/docs/credits.md
-
 Thinking on my feet, @goetzk wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
 
