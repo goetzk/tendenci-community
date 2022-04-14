@@ -21,33 +21,6 @@ Having a public bug tracker and accepting merge requests is important and @goetz
 
 I would like to suggest some other ways in which participation can be made easier.
 
-Forum notifications
--------------------
-
-I believe in order to achieve its full potential `the forum`_ needs to provide notifications. Why? Because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
-
-I would like to see the ability to subscribe to:
- - posts I made
- - posts I reply to
- - specific sub forums
- - the entire forum
-
-This is, coincidentally, roughly the same levels as GitHub) provides.
-
-.. _the forum: https://www.tendenci.com/forums/
-.. _GitHub: 
-
-Forum topics
-------------
-
-If Tendenci (corp) decides that `the forum`_ is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
-
-1. A mailing list
-2. Buy-in from Tendenci (corp) with the `Matrix`_ channel or setting up a 'community' on Matrix
-
-with the latter being preferred.
-
-.. _Matrix: https://matrix.org/blog/index
 
 Developers developers developers
 --------------------------------
@@ -136,3 +109,8 @@ Updated credits
 ---------------
 
 @eschipul updated the credits not long after he found this document. They haven't been consistent in updating but the complaint as written was addressed.
+
+Removed forum
+-------------
+
+Although technically the forum is still there (causing a bit of confusion I expect) it has no contents and I suspect is no longer in use. As such complaining about its contents and usage seems unfair so removed that section.
