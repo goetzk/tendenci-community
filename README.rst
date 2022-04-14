@@ -2,9 +2,12 @@
 Tendenci community
 ==================
 
-Every now and then the topic of community comes up in discussions around [Tendenci](https://github.com/tendenci/tendenci/) and there is a general agreement it would be good to see more external contribution - a sentiment we probably all agree with.
+Every now and then the topic of community comes up in discussions around `Tendenci`_ and there is a general agreement it would be good to see more external contribution - a sentiment we probably all agree with.
 
-Despite that Tendenci's parent company (['Tendenci (corp)'](https://www.tendenci.com/) from here on) has struggled to build a growing community of regular contributors.
+Despite that Tendenci's parent company `Tendenci (corp)`_ from here on) has struggled to build a growing community of regular contributors.
+
+.. _Tendenci: https://github.com/tendenci/tendenci/
+.. _Tendenci (corp): https://www.tendenci.com/
 
 To try and expose areas @goetzk (and others!) believes should be addressed, this document has been put together to try and outline issues experienced by the community. At the same time we try to offer solutions to the problems discussed in the hope that they will lead to greater input from the developer community and make Tendenci a more attractive project to participate in.
 
@@ -21,7 +24,7 @@ I would like to suggest some other ways in which participation can be made easie
 Forum notifications
 -------------------
 
-I believe in order to achieve its full potential [the forum](https://www.tendenci.com/forums/) needs to provide notifications. Why? Because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
+I believe in order to achieve its full potential `the forum`_ needs to provide notifications. Why? Because being required to check something means it will be forgotten. An email (or RSS feed or whatever) brings the activity to the subscriber and essentially prompts them to take part in the conversation.
 
 I would like to see the ability to subscribe to:
  - posts I made
@@ -29,18 +32,22 @@ I would like to see the ability to subscribe to:
  - specific sub forums
  - the entire forum
 
-This is, coincidentally, roughly the same levels as [GitHub](https://github.com/) provides.
+This is, coincidentally, roughly the same levels as GitHub) provides.
+
+.. _the forum: https://www.tendenci.com/forums/
+.. _GitHub: 
 
 Forum topics
 ------------
 
-If Tendenci (corp) decides that [the forum](https://www.tendenci.com/forums/) is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
+If Tendenci (corp) decides that `the forum`_ is the main way they would like to interact with community developers, other than through issues and pull requests, I would like to see a section of the forum dedicated to this. In it's current form the forum seems to be entirely aimed at end users requesting things from the community; if this is the sole aim of the forum then I would propose one of two things:
 
 1. A mailing list
-2. Buy-in from Tendenci (corp) with the [Matrix](https://matrix.org/blog/index) channel or setting up a 'community' on Matrix
+2. Buy-in from Tendenci (corp) with the `Matrix`_ channel or setting up a 'community' on Matrix
 
 with the latter being preferred.
 
+.. _Matrix: https://matrix.org/blog/index
 
 Developers developers developers
 --------------------------------
@@ -53,8 +60,9 @@ For example:
 
 There are also other kinds of contribution that are not tracked or proffered in any way: 'community contributed tooling', for example Ansible or Puppet scripts to manage Tendenci. Where can those be noted/publicised to the community at large?
 
-A bazaar like that mentioned in https://github.com/tendenci/tendenci/issues/692 might be a target for such contributions, unless there is an intent that all offered plugins and themes will be merged in to a Tendenci repository somewhere.
+A bazaar like that mentioned in `issue 692`_ might be a target for such contributions, unless there is an intent that all offered plugins and themes will be merged in to a Tendenci repository somewhere.
 
+.. _issue 692: https://github.com/tendenci/tendenci/issues/692
 
 Tendenci (corp) only documentation
 -----------------------------
@@ -77,8 +85,9 @@ Future plans
 
 There is not - that @goetzk know of - a published roadmap for Tendenci providing information at _any_ level. This means community CANT proactively fix things which will help Tendenci (corp), unless they decide the need is so real they'll risk the changes sitting idle (I refer to the recent Python 3/Django 1.11/2.0 branches as examples).
 
-Related to that is detail in tickets. A recent example (at time of writing) of a ticket which isn't very detailed is https://github.com/tendenci/tendenci/issues/660 . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
+Related to that is detail in tickets. A recent example (at time of writing) of a ticket which isn't very detailed is `issue 660`_ . If the community know what is desired someone might be willing to chip in and either write the docs or start developing a feature.
 
+.. _issue 660: https://github.com/tendenci/tendenci/issues/660
 
 Contributions need to be matched
 ================================
