@@ -128,3 +128,11 @@ Many contributors don't receive anything for their efforts (except perhaps their
 
 Thinking on my feet, @goetzk wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
 
+
+Improvements / fixes which have been made
+=========================================
+
+Updated credits
+---------------
+
+@eschipul updated the credits not long after he found this document. They haven't been consistent in updating but the complaint as written was addressed.
