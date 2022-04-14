@@ -89,6 +89,7 @@ Several times recently I've seen comments which were engaged with but which were
  - Having people vanish mid conversation is really off putting, see fe https://github.com/tendenci/tendenci/issues/570
  - People try and 'trigger' engagement, get nothing in response, for example https://github.com/tendenci/tendenci/issues/613#issuecomment-392497823 where Adam created a Matrix chat or https://github.com/tendenci/tendenci/issues/685#issuecomment-395043657 where @goetzk replied to a very enthusiastic response but saw nothing thereafter.
 
+Incidentally the Matrix channel can be found at https://matrix.to/#/#tendenci-dev:matrix.org
 
 Many moons ago @goetzk responded to a survey - probably received via emailed newsletter. @goetzk never received an answer to the issues @goetzk raised and many of my comments (related to community) don't appear to have been actioned - in many cases they are the same as those I'm providing now.
 While working on this letter @goetzk asked for my survey responses (on 2018-06-09), they were never recieved.
