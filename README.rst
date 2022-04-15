@@ -44,7 +44,11 @@ Tendenci (corp) only documentation
 
 Lots of documentation is on the Tendenci (corp) website and is not editable to casual contributors (presumably only available to Tendenci (corp) staff). Some of the documentation is correct, comprehensive and current. Some of it is irrelevant and wrong. Some of it sits in the middle and is good, but needs an update.
 
-I (@goetzk) will cite my recent PRs supplying documentation for Stripe integration as an example of working around the lack of editing ability - if @I was able to edit the documentation directly those PRs would have been able to add new information directly.
+I (@goetzk) will cite my recent PRs supplying documentation for Stripe integration ("`Mention recurring payments`_" and "`Expand recurring payments documentation`_") as an example of working around the lack of editing ability - if I was able to edit the documentation those PRs would have been able to add new information directly.
+
+.. _Mention recurring payments: https://github.com/tendenci/tendenci/pull/645
+.. _Expand recurring payments documentation: https://github.com/tendenci/tendenci/pull/652
+
 
 As an example of the problematic nature of the Tendenci (corp) only pages I reported this issue in 2015 which is still unfixed:
  * The `developers page`_ has a number of broken links. [...]  Github Newsfeed (https://github.com/organizations/tendenci) goes to the Github home page
@@ -52,9 +56,12 @@ There are other easy fixes on that page too:
  * "Find out about Tendenci Open Source Hosting Requirements" should point directly to Read the docs, not to a page on tendenci.org which links to RTD.
  * "Getting Started hosting Tendenci on Rackspace Open Stack Cloud Hosting" links to a page that says it is outdated and look at read the docs.
 
+There is also `issue 845`_ reported in August 2020 requesting access to fix documentation which didn't see a response until it was pinged several years later.
+
 I believe the split documentation schism is one reason that searching for Tendenci help can be very hit and miss, its docs often don't seem to come up in my searches (perhaps I'm weird?).
 
 .. _developers page: https://www.tendenci.com/developers/
+.. _issue 845: https://github.com/tendenci/tendenci/issues/845
 
 Future plans
 -------------
