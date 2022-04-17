@@ -173,6 +173,69 @@ Many contributors don't receive anything for their efforts (except perhaps their
 Thinking on my feet, I (@goetzk) wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community.
 
 
+Tendenci's codebase has too much included
+=========================================
+
+While this point can reasonably be debated it is included as the complexity of Tendenci does carry a cost.
+There are two forms this takes:
+* Redundancy in application behaviours
+* `too many things`_ for the new administrator to graple with.
+
+.. too many things: https://github.com/goetzk/tendenci-community/issues/2
+
+Application redundancy
+----------------------
+
+I've recently encountered this again because News, Pages and Articles are all very similar in what they do. They take one or two blocks of text and display them on a site.
+
+This causes confusion to users (about where a particular post should be made) and appears to result in development mismatches between the modules.
+
+Articles and events have a single group selectable while news supports multiple groups. The code for Articles looks from the code like it should be multi select (models.ManyToManyField). Firstly the relationship used to be an ForeinKey but was migrated to ManyToMany. Second the groups list is copied by code internally (ie when duplicating an event) so multiple groups is meant to be supported. There are also various "if groups count > 0" tests in the codebase. Its possible the UI was just never updated to match the new DB modeling so it has to be created with one group and others added after the fact (I'm yet to test that though).
+
+I propose that situations like this have a single application and a selectable to hint Tendenci in how best to display the content.
+
+This leads in to the next item.
+
+
+Too many things
+---------------
+
+`too many things`_ was posted as a suggestion for this document and I include the posters thoughts largely unedited below.
+
+.. too many things: https://github.com/goetzk/tendenci-community/issues/2
+
+Tendenci needs to be simplified, there are at the moment too many functions. This is an unnecessary burden on everyone and everything. Developers, maintainers, documentation, deployment.
+
+Some apps should be removed and offered as plugins.
+
+Core functions that should be available:
+
+ * Newsletter
+ * User management
+ * Events
+ * Calendar (improved)
+ * Forms
+ * News
+
+To be disabled. But left in the installation for the user to activate.
+
+ * Forums
+ * Directories
+ * Staff
+ * Jobs
+ * Resumes
+ * Industries
+
+Others can be really removed and left as plugins.
+
+ * Videos (this can be really deprecated)
+ * Redirects
+ * Careers
+ * Educations (what is this?)
+ * Stories Pages and news are already there. No point to have an extra app for stories. There are also articles and cases. Is that all really needed?
+ * And some more.
+
+
 Improvements / fixes which have been made
 =========================================
 
