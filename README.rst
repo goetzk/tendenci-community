@@ -187,6 +187,9 @@ Many contributors don't receive anything for their efforts (except perhaps their
 Thinking on my feet, I (@goetzk) wonder if some public thanks in the newsletter for people/orgs who have made "substantial" contributions since the previous newsletter? It might help show off their communities, company, or otherwise help give the impression of greater community. This could also apply to contributors LinkedIn/Twitter/other profiles.
 
 
+Update: I have seen a contribute receiving credit in the Tendenci newsletter. If it continues I will move this to resolved.
+
+
 Tendenci's codebase has too much included
 =========================================
 
